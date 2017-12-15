@@ -91,4 +91,4 @@ A priori no es necesario saber todas estas palabras reservadas. Pero sí que nos
         </tr>
     </table>
 
-*
+**NOTA: **NO** se puede crear ninguna _clase_, _variable_, _método_ o _campo_ con estos nombres. Aunque como JAVA es case sensitive sí que puede haber por ejemplo un atributo llamado **Public**, pero no uno llamado **public**.
