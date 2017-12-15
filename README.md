@@ -1,5 +1,5 @@
 # oca-java8-apuntes
-Notas para la preparación de la Oracle Certified Associate. Son pequeñas
+Notas para la preparación de la Oracle Certified Associate. Son pequeños apuntes en castellano para resumir brevemente todo lo que he considerado importante tener en cuenta a la hora de realizar la prueba.
 
 
 ## Bibliografía
