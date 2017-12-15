@@ -20,6 +20,7 @@ http://enthuware.com/index.php/mock-exams/oracle-certified-associate/java-oca-ce
 La idea principal de hacer esto ha sido gracias a un excelente profesional que he descubierto recientemente en un podcast. El señor Diego Freniche.
 
 Blog   -> http://blog.freniche.com/
+
 GitHub -> https://github.com/dfreniche
 
 ---
