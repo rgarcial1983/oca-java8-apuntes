@@ -91,4 +91,51 @@ A priori no es necesario saber todas estas palabras reservadas. Pero sí que nos
         </tr>
     </table>
 
-**NOTA: **NO** se puede crear ninguna _clase_, _variable_, _método_ o _campo_ con estos nombres. Aunque como JAVA es case sensitive sí que puede haber por ejemplo un atributo llamado **Public**, pero no uno llamado **public**.
+**NOTA**: **NO** se puede crear ninguna _clase_, _variable_, _método_ o _campo_ con estos nombres. Aunque como JAVA es case sensitive sí que puede haber por ejemplo un atributo llamado **Public**, pero no uno llamado **public**.
+
+## Comentarios
+
+Los comentarios son fragmentos de código que no se ejecuta. Hay varios tipos de comentarios:
+```java
+// Comentarios de una sóla línea
+
+/*
+*  Comentarios de varias líneas
+*/
+
+/**
+*  Comentarios de JavaDoc
+*  @author
+*/
+```
+
+## Clases Vs Ficheros
+Cada clase define su propio fichero ***.java**. Normalmente es public, que significa que cualquier código puede llamarlo.
+Se puede tener dos clases en el mismo fichero, no es muy habitual pero es correcto. Lo único que hay que tener en cuenta es que si tenemos varias clases en un fichero la clase que coincide con el nombre del fichero debe ser public.
+Por ejemplo:
+```java
+1: public class Animal {
+2:   private String name;
+3: }
+4: class Animal2 {
+5: }
+```
+En este caso debe de existir un fichero se llama **Animal.java**.
+
+## Método main()
+El método main en java es un estándar utilizado por la JVM para iniciar la ejecución de cualquier programa Java. Dicho método se conoce como punto de entrada de la aplicación java.
+```java
+1: public class Animal {
+2:  public static void main(String[] args) {
+3:
+4:  }
+5:}
+```
+Para compilar y ejecutar este código hay que compilar el fichero .java y luego ejecutar la clase:
+
+```java
+$ javac Animal.java
+$ java Animal
+```
+Volviendo al método main() lo que hay que tener en cuenta son los siguientes puntos:
+- 
